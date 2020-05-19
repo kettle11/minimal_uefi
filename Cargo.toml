@@ -1,0 +1,15 @@
+[package]
+name = "minimal_uefi"
+version = "0.1.0"
+authors = ["Ian Kettlewell <ian.kettlewell@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+uefi = "0.4.5"
+
+[package.metadata.cargo-xbuild]
+memcpy = true
+sysroot_path = "target/sysroot"
+panic_immediate_abort = true
