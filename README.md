@@ -20,5 +20,5 @@ for the file edk2.git-aarch64...noarch.rpm
 
 Qemu is an emulator: https://www.qemu.org/
 
-OVMF contains firmware needed for Qemu emulate UEFI.
+OVMF contains firmware needed for Qemu to emulate UEFI.
 It is part of the EDK II project: https://github.com/tianocore/edk2
